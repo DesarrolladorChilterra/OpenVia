@@ -1,0 +1,165 @@
+@import url(../reindeer/styles.css);
+
+/* Margen splitpanel second component*/
+.v-splitpanel-first-container {
+    margin: 0px;
+    background-color: lightsteelblue;
+}
+.v-splitpanel-second-container {
+    margin: 0px;
+    background-color: lightsteelblue;
+}
+
+.v-loading-indicator, .v-loading-indicator-delay, .v-loading-indicator-wait {
+     background: url(images/wait.gif) no-repeat center;
+     position: fixed !important;
+     width: 50px;
+     height: 50px;
+     top: 43%;
+     left: 47%;
+     z-index: 30000;
+}
+
+.v-panel-toolbar {
+    background: lightsteelblue;
+}
+
+.v-tabsheet-tabitemcell-tabmenu {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+/* Fin SuperPyme */
+
+
+
+
+
+.select-wait {cursor: wait;}
+/* Lay the options horizontally */
+.v-select-optiongroup-horizontal .v-select-option {
+    display: inline-block;
+}
+
+/* Avoid wrapping if the layout is too tight */
+.v-select-optiongroup-horizontal {
+    white-space: nowrap;
+}
+
+/* Some extra spacing is needed */
+.v-select-optiongroup-horizontal
+  .v-select-option.v-radiobutton {
+    padding-right: 10px;
+}
+.sidebar-menu * {
+    white-space: normal;
+}
+.sidebar-menu .v-label {
+    font-size: 0.85em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    padding: 1em .9em .3em;
+    text-shadow: 0 1px 0 rgba(255,255,255,1);
+}
+.sidebar-menu .v-nativebutton {
+    width: 100%;
+    height: 25px;
+    padding: 0px;
+    border-style: solid;
+    border-color: black;
+    background: lightgrey;
+    text-align: center;
+}
+.sidebar-menu .v-nativebutton:focus,
+.sidebar-menu .selected {
+    outline: none;
+    font-weight: bold;
+    border-color: blue;
+    color: black;
+    background: #9999ff;
+}
+.sidebar-menu .tab-selected,
+/*.sidebar-menu .selected { */
+/*    font-weight: bold;
+    background-color: #333;
+    color: #fff;*/
+/*    outline: none;
+    font-weight: bold;
+    border-color: blue;
+    color: #fff;
+    background: #9999ff;
+}*/
+.sidebar-menu .tab-selected:focus,
+.sidebar-menu .selected:focus {
+    outline: none;
+}
+
+/* campos desactivos */
+input.v-textfield-especial {
+    color:darkblue;
+    border:solid;
+    border-width: 1px;
+}
+
+/* alineamiento */
+.v-textfield-right {
+   text-align: right;
+}
+
+
+.v-panel-formPanel  {
+    border:solid;
+}
+.v-table-row-especial  {
+    background: #9999ff;
+    font-weight: bold;
+}
+.v-window-light .v-window-header {
+	font-size: 16px;
+	color: black;
+	text-shadow: white 2px 2px 2px;
+        background-color: lightgray;
+        height: 22px;
+}
+
+.v-panel-fondo .v-panel-content > div {
+	background: rgb(230,230,250);
+	min-height: 100%;
+}
+
+/* Button Toolbar */
+.v-button-toolbar  {
+	background-image:none;
+	background: #000 url(bg.png) repeat-x;;
+	background-color: #033;
+	border: 1px solid #000;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+/*	border-radius: 2px;*/
+	padding: 0px 1em 0px 1em;
+}
+
+.v-button-toolbar-link {
+	background: transparent;
+	border: 0px;
+}
+
+.v-button-toolbar span {
+	line-height: 26px;
+	color: white;
+/*	color: #ccc;*/
+}
+
+.v-button-toolbar:hover {
+	background-color: #066;
+}
+
+.v-horizontallayout-border {
+/*    padding: 15px;*/
+    border-style: ridge;
+    border-color: lightgray;
+}
